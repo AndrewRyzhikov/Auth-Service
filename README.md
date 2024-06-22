@@ -19,11 +19,6 @@ Auth-Service is a gRPC authentication service built with Go, designed to provide
 - Set up automatic deployment using GitHub Actions to a remote server.
 - Configured the server to run the gRPC service and make it accessible to clients.
 
-### URL Shortener Integration
-
-- Integrated the gRPC service with the existing URL Shortener service as a client.
-- Implemented functionality in the URL Shortener service to send authentication requests to the gRPC service and handle responses.
-
 ### Functional Tests
 
 - Wrote comprehensive functional tests for the gRPC service to ensure that all methods work as expected.
